@@ -23,4 +23,12 @@ export const testimonial = [
     role: "Marketing Director",
     company: "Global Corp",
   },
+  {
+    quote:
+      "My resume's ATS score improved significantly. Got more interviews in two weeks than in six months!",
+    author: "Barkha Mishra",
+    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    role: "Sales Director",
+    company: "Hero Moto Corp",
+  },
 ];
