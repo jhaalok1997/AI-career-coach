@@ -16,10 +16,10 @@ export const generateAIInsights = async (industry) => {
             ],
             "growthRate": number,
             "demandLevel": "High" | "Medium" | "Low",
-            "topSkills": ["skill1", "skill2"],
+            "topSkills": ["skill1", "skill2" , "skill3"],
             "marketOutlook": "Positive" | "Neutral" | "Negative",
             "keyTrends": ["trend1", "trend2"],
-            "recommendedSkills": ["skill1", "skill2"]
+            "recommendedSkills": ["skill1", "skill2" , "skill3"]
           }
           
           IMPORTANT: Return ONLY the JSON. No additional text, notes, or markdown formatting.

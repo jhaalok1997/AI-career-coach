@@ -27,8 +27,16 @@ export const testimonial = [
     quote:
       "My resume's ATS score improved significantly. Got more interviews in two weeks than in six months!",
     author: "Barkha Mishra",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    image: "https://randomuser.me/api/portraits/women/38.jpg",
     role: "Sales Director",
     company: "Hero Moto Corp",
+  },
+   {
+    quote:
+      "The AI-generated cover letter was perfect. It highlighted my skills and experience exactly as I wanted!",
+    author: "Akash Jha",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
+    role: " Product Designer",
+    company: "Tech Innovators Ltd.",
   },
 ];
