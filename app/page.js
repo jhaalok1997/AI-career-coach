@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -23,6 +24,8 @@ import { faqs } from "@/data/faqs";
 import { howItWorks } from "@/data/howItWorks";
 
 export default function LandingPage() {
+
+
   return (
     <>
       <div className="grid-background"></div>
@@ -108,12 +111,14 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
       <section className="w-full py-12 md:py-24 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">
             What Our Users Say
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          { /* Testimonials Slider  "" */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto" >
             {testimonial.map((testimonial, index) => (
               <Card key={index} className="bg-background">
                 <CardContent className="pt-6">
